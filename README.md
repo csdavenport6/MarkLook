@@ -2,6 +2,8 @@
 
 MarkLook is a native macOS Quick Look extension for Markdown. Install and launch the host app once, enable its extension, then select a Markdown file in Finder and press Space.
 
+MarkLook runs without a Dock icon. To open its setup window, launch MarkLook from Applications or Spotlight.
+
 ## Use the included local build
 
 The separately packaged `MarkLook.app` is an ad-hoc-signed Apple Silicon build for local testing on macOS 13 or newer. Copy it to `/Applications`, launch it once, and follow the setup steps shown in the window. It is not Developer ID signed or notarized for public distribution; use the Xcode project and your Apple development team for that.
